@@ -42,3 +42,22 @@ Confirmed the installed PHP version => PHP 7.4.3
 
 **5. CREATING A VIRTUAL HOST FOR YOUR WEBSITE USING APACHE**
 
+Created the directory for projectlamp => Successful
+
+Attempted to create and open a new configuration file in Apache’s sites-available directory => Unsuccessful, Error message -> "E17: home/ubuntu is a directory"
+
+Noticed the instruction mentioned using :wq. to save and exit, the right instruction is :wq!
+
+Created the new configuration file => Successful
+
+Opened the website URL using the public IP address on a web browser => Successful
+
+Opened the website URL using the public DNS name on a web browser => Successful
+
+**6. ENABLE PHP ON THE WEBSITE**
+
+Changed the order in which the index.php file is listed within the DirectoryIndex directive => Successful
+
+Created a new file named index.php inside the custom web root folder => Successful
+
+Refreshed the website url on the web browser => Page is rendered from the perspective of PHP which confirms PHP is working as expected.
