@@ -65,4 +65,4 @@ Attempted to access the server locally in the Ubuntu shell, run: curl http://loc
 
 Attempted to render the server on a web browser => Successful
 
-## INSTALLING MYSQL
+## 2. INSTALLING MYSQL
