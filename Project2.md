@@ -28,6 +28,17 @@ Link to Major Nano commands - https://www.linuxandubuntu.com/home/nano-cli-text-
 
 **0. Preparing Prerequisites**
 
-Launched GitBash and connected to the EC2 instance => Successful
+Launched GitBash and connected to the EC2 instance created from Project1 => Successful
 
 ## 1. INSTALLING THE NGINX WEB SERVER
+Tried installing NGINX on the previous EC2 instance => Successful
+
+Attempted to access the server locally in the Ubuntu shell, run: curl http://localhost:80 => Successful
+
+Attempted to render the server on a web browser => Output was from the Apache Server that was previously set up
+
+Removed NGINX from the EC2 instance by running "sudo apt remove --purge nginx" and "sudo apt autoremove" => Successful
+
+Created a new instance => SUccessful
+
+Tried connecting to the EC2 instance with GitBash => Unsuccessful, Error Message: permission denied (publickey gssapi-keyex gssapi-with-mic). aws
