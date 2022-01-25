@@ -39,6 +39,11 @@ Attempted to render the server on a web browser => Output was from the Apache Se
 
 Removed NGINX from the EC2 instance by running "sudo apt remove --purge nginx" and "sudo apt autoremove" => Successful
 
-Created a new instance => SUccessful
+Created a new instance => Successful
 
-Tried connecting to the EC2 instance with GitBash => Unsuccessful, Error Message: permission denied (publickey gssapi-keyex gssapi-with-mic). aws
+Tried connecting to the EC2 instance with GitBash => Unsuccessful, Error Message: permission denied (publickey gssapi-keyex gssapi-with-mic).aws
+
+![Error connecting to EC2 instance](https://user-images.githubusercontent.com/97810379/151066223-4ddae4fd-f73e-4acb-86fb-78ffd4487492.JPG)
+
+The EC2 instance I created was an AMI instance whose root user is "ec2-user" while I was using "ubuntu' - Solution link: https://stackoverflow.com/questions/33991816/ec2-ssh-permission-denied-publickey-gssapi-keyex-gssapi-with-mic
+
