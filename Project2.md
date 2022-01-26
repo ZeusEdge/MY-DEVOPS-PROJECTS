@@ -66,7 +66,28 @@ Attempted to access the server locally in the Ubuntu shell, run: curl http://loc
 Attempted to render the server on a web browser => Successful
 
 ## 2. INSTALLING MYSQL
-
 Installed MySQL server successfully
 
 Confirmed MySQL server is running => Successful
+
+## 3. INSTALLING PHP
+Installed PHP module that allows PHP to communicate with MySQL-based databases => Successful
+
+Installed PHP fastCGI process manager => Successful
+
+## 4. CONFIGURING NGINX TO USE PHP PROCESSOR
+Created the root web directory for projectLEMP => Successful
+
+Assigned ownership of the directory with the $USER environment variable => Successful
+
+Created a new configuration file in Nginx’s sites-available directory using Nano => Successful
+
+Activate your configuration by linking to the config file from Nginx’s sites-enabled directory => Successful
+
+Tested the configuration for syntax errors => No errors found\
+
+Disabled the default Nginx host that is currently configured to listen on port 80 => Successful
+
+Created an index.html file in the projectLEMP location => Successful
+
+Opened your website URL using IP address and (public hostname) DNS name => Successful
