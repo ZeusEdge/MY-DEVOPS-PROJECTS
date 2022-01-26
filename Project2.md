@@ -66,3 +66,7 @@ Attempted to access the server locally in the Ubuntu shell, run: curl http://loc
 Attempted to render the server on a web browser => Successful
 
 ## 2. INSTALLING MYSQL
+
+Installed MySQL server successfully
+
+Confirmed MySQL server is running => Successful
