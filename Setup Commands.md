@@ -14,5 +14,3 @@ mysql> exit
 
 ## COMMAND TO SET UP PHP
 sudo apt install php-fpm php-mysql
-
-## CONFIGURING NGINX TO USE PHP PROCESSOR
