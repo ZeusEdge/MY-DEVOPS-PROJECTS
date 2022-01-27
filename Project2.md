@@ -113,3 +113,4 @@ Inserted a few rows of content in table Test_DB.todo_list => Successful
 Created a new PHP file - todo_list.php - in the custom web root directory using Nano => Successful
 
 Accessed the page in the web browser by visiting the domain name followed by todo_list.php => Successful
+![todo_list_php_page](https://user-images.githubusercontent.com/97810379/151440047-890186bb-d239-4877-8c4f-bea598a6ee10.JPG)
