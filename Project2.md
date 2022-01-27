@@ -84,10 +84,12 @@ Created a new configuration file in Nginx’s sites-available directory using Na
 
 Activate your configuration by linking to the config file from Nginx’s sites-enabled directory => Successful
 
-Tested the configuration for syntax errors => No errors found\
+Tested the configuration for syntax errors => No errors found
 
 Disabled the default Nginx host that is currently configured to listen on port 80 => Successful
 
 Created an index.html file in the projectLEMP location => Successful
 
 Opened your website URL using IP address and (public hostname) DNS name => Successful
+
+## 5. TESTING PHP WITH NGINX
