@@ -14,3 +14,9 @@ mysql> exit
 
 ## COMMAND TO SET UP PHP
 sudo apt install php-fpm php-mysql
+
+## COMMAND TO RENAME A FILE
+mv 'old filename' 'new filename'
+
+## COMMAND TO LOGIN TO MYSQL WITH CUSTOM USER CREDENTIALS
+mysql -u 'custom_user' -p
