@@ -93,3 +93,23 @@ Created an index.html file in the projectLEMP location => Successful
 Opened your website URL using IP address and (public hostname) DNS name => Successful
 
 ## 5. TESTING PHP WITH NGINX
+Created a test PHP file in the document root named info.php => Successful
+
+Accessed the page in the web browser by visiting the domain name or public IP address => Successful
+
+Removed the info.php file => Successful
+
+## 6. RETRIEVING DATA FROM MYSQL DATABASE WITH PHP
+Created a database - Test_DB => Successful
+
+Created a new user - Test_User - and set up the user password => Successful
+
+Gave Test_User permission over Test_DB => Successful
+
+Created a table - todo_list - on the Test_DB => Successful
+
+Inserted a few rows of content in table Test_DB.todo_list => Successful
+
+Created a new PHP file - todo_list.php - in the custom web root directory using Nano => Successful
+
+Accessed the page in the web browser by visiting the domain name followed by todo_list.php => Successful
