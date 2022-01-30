@@ -24,5 +24,13 @@ Listed the list of folders in root => Todo folder has been deleted
   
 Todo folder np longer accessible => Need to restart the whole process
 
-
+Restarted the whole process, Postman was working until I killed a node service (not cool)
   
+Could not figure out how to restart the service
+
+Would have to restart a new instance (yawns)
+
+Noticed that index.js has to be running on the console for the web browser to display the right content
+
+Tested the POST, GET, and DELETE requests from POSTMAN => ALL actions were successful
+
