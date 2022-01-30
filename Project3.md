@@ -56,3 +56,4 @@ Created and edited the javascript and css files => Successful
 
 Ran npm run dev command => Compilation successful
 
+![Copilation successful](https://user-images.githubusercontent.com/97810379/151717492-8b6bcefb-16de-4332-b8f3-e56dd84183db.JPG)
