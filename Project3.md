@@ -44,3 +44,11 @@ Edited the package.json file => Successful
 
 Ran npm run dev command => Error message gotten
 
+![npn dev error message](https://user-images.githubusercontent.com/97810379/151716336-1f87f09b-8eb9-43e5-a999-6ba198b4a7c6.JPG)
+
+Ran the package.json code on a json formatter and validator web app (https://jsonformatter.curiousconcept.com/#) => Error in the syntax just before "author", 'comma' was missing.
+
+Made the correction and the validator confirmed the package.json code was valid => Made the correction on the package.json file
+
+Ran npm run dev command => Compilation successful
+
