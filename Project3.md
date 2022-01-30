@@ -52,3 +52,7 @@ Made the correction and the validator confirmed the package.json code was valid 
 
 Ran npm run dev command => Compilation successful
 
+Created and edited the javascript and css files => Successful
+
+Ran npm run dev command => Compilation successful
+
