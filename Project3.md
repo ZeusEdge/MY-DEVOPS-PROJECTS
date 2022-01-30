@@ -34,3 +34,13 @@ Noticed that index.js has to be running on the console for the web browser to di
 
 Tested the POST, GET, and DELETE requests from POSTMAN => ALL actions were successful
 
+## FRONTEND CREATION
+  
+Installed REACT => Successful
+
+Installed Concurrently and Nodemon => Successful
+
+Edited the package.json file => Successful
+
+Ran npm run dev command => Error message gotten
+
