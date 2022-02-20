@@ -21,10 +21,15 @@ mv 'old filename' 'new filename'
 ## COMMAND TO LOGIN TO MYSQL WITH CUSTOM USER CREDENTIALS
 mysql -u 'custom_user' -p
 
-## COMMANDS TO INSTALL NGINX
+## USER & GROUP MANAGEMENT
+Add a new user =>= _sudo useradd -m "username"_
 
-## COMMANDS TO CONNECT TO MONGODB DATABASE
+Add a new group =>= _sudo groupadd "groupname"_
 
-## COMMANDS TO INSTALL REACT
+Assign user to a group =>= _usermod -a -G "groupname" "username"_ -> This ensures the user is still assigned to previous groups
 
-## COMMMANDS TO INSTALL NODEJS
+_usermod -a -g "group-name" "username"_ -> This removes the user from all previously added groups and assigns to the specified group
+
+Delete a user =>= _sudo userdel "username"_
+
+Delete a group =>= _sudo groupdel "groupname"
