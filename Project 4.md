@@ -17,3 +17,16 @@ Upgrade ubuntu =>= _sudo apt upgrade_
 Add certificates =>= _sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates && curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -_
 
 ![2022-02-20 13_18_05-ubuntu@ip-172-31-93-96_ ~](https://user-images.githubusercontent.com/97810379/154844783-4b5ba8c9-20f8-4b7b-9a44-98a733387b67.jpg)
+
+Install NodeJS =>= _sudo apt install -y nodejs_
+
+![2022-02-20 13_19_17-ubuntu@ip-172-31-93-96_ ~](https://user-images.githubusercontent.com/97810379/154844851-6f9c8bce-18ed-4af8-bf50-311198b14d85.jpg)
+
+Install npm – Node package manager =>= _sudo apt install -y npm_
+
+Verified the versions of Node.js and npm that were installed.
+
+![2022-02-20 14_30_20-ubuntu@ip-172-31-93-96_ ~](https://user-images.githubusercontent.com/97810379/154845017-a367746b-b72d-4db7-8f04-5bb4aa225a82.jpg)
+
+**Step 2: Installing MongoDB**
+
