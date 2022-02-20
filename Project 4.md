@@ -121,4 +121,8 @@ Accessed the application on the web browser => Successful
 
 Added a couple of book details in the relevant fields and changes were seen on the CLI as seen below
 
+![2022-02-20 14_04_55-ubuntu@ip-172-31-93-96_ ~_Books](https://user-images.githubusercontent.com/97810379/154848154-05f06b3a-1821-4e23-9ee5-c9817a5a37aa.jpg)
+
+Upon refreshing the application on the browser, the details were displayed as seen below;
+
 ![2022-02-20 15_39_05-34 205 159 93_3300](https://user-images.githubusercontent.com/97810379/154848104-36de81ef-ecff-4c12-bcec-a298f946b5b4.jpg)
