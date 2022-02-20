@@ -56,7 +56,7 @@ MongoDB installed successfully
 
 Created a folder named ‘Books’. In the Books directory, initialized npm project =>= _npm init_
 
-Added a file to to the Books directory named server.js
+Added a file to the Books directory named server.js
 
 Added the following code segment into server.js
 
@@ -69,3 +69,32 @@ Express is needed to pass book information to and from our MongoDB database
 
 Installing Express Mongoose package =>= _sudo npm install express mongoose_
 
+Express is successfully installed
+
+In the ‘Books’ directory, created a folder named apps
+
+Added a file to the apps directory named routes.js
+
+Added the following code segment into routes.js
+
+[routes.js.txt](https://github.com/ZeusEdge/MY-DEVOPS-PROJECTS/files/8104155/routes.js.txt)
+
+In the ‘apps’ directory, created a folder named models
+
+Added a file to the models directory named book.js
+
+Added the following code segment into book.js
+
+[book.js.txt](https://github.com/ZeusEdge/MY-DEVOPS-PROJECTS/files/8104162/book.js.txt)
+
+**Step 4: Setting up AngularJS to access the created routes**
+
+In this case, AngularJS is used to connect our web page with Express and perform actions on the book register
+
+In the ‘Books’ directory, created a folder named public
+
+Added a file to the public directory named script.js
+
+Added the following code segment into script.js whioch is the controller configuration defined in which AngularJS is called up.
+
+[script.js.txt](https://github.com/ZeusEdge/MY-DEVOPS-PROJECTS/files/8104170/script.js.txt)
