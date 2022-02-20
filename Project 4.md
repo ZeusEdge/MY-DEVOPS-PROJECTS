@@ -69,6 +69,8 @@ Express is needed to pass book information to and from our MongoDB database
 
 Installing Express Mongoose package =>= _sudo npm install express mongoose_
 
+![2022-02-20 13_49_18-ubuntu@ip-172-31-93-96_ ~_Books](https://user-images.githubusercontent.com/97810379/154847660-660f757a-b0d8-4f37-88e5-d97fcbd77f3b.jpg)
+
 Express is successfully installed
 
 In the ‘Books’ directory, created a folder named apps
@@ -98,3 +100,25 @@ Added a file to the public directory named script.js
 Added the following code segment into script.js whioch is the controller configuration defined in which AngularJS is called up.
 
 [script.js.txt](https://github.com/ZeusEdge/MY-DEVOPS-PROJECTS/files/8104170/script.js.txt)
+
+![2022-02-20 14_04_55-ubuntu@ip-172-31-93-96_ ~_Books](https://user-images.githubusercontent.com/97810379/154847691-8701b27d-382c-43c7-ba59-241570fddd10.jpg)
+
+Added a file to the public directory named index.html
+
+Added the following code segment into index.html
+
+[index.html.txt](https://github.com/ZeusEdge/MY-DEVOPS-PROJECTS/files/8104177/index.html.txt)
+
+AngularJS is successfully configured.
+
+Started the server =>= _node server.js_
+
+Opened the TCP port 3300 in the AWS Web Console for the EC2 Instance
+
+![2022-02-20 15_37_31-MINGW64__c_Users_1_Downloads_DevOps](https://user-images.githubusercontent.com/97810379/154847958-0eed09b6-21cc-4061-b648-0a8ab7eb8497.jpg)
+
+Accessed the application on the web browser => Successful
+
+Added a couple of book details in the relevant fields and changes were seen on the CLI as seen below
+
+![2022-02-20 15_39_05-34 205 159 93_3300](https://user-images.githubusercontent.com/97810379/154848104-36de81ef-ecff-4c12-bcec-a298f946b5b4.jpg)
