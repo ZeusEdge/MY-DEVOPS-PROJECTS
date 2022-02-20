@@ -59,13 +59,13 @@ Created a folder named ‘Books’. In the Books directory, initialized npm proj
 Added a file to to the Books directory named server.js
 
 Added the following code segment into server.js
-var express = require('express');
-var bodyParser = require('body-parser');
-var app = express();
-app.use(express.static(__dirname + '/public'));
-app.use(bodyParser.json());
-require('./apps/routes')(app);
-app.set('port', 3300);
-app.listen(app.get('port'), function() {
-    console.log('Server up: http://localhost:' + app.get('port'));
-});
+
+[server.js.txt](https://github.com/ZeusEdge/MY-DEVOPS-PROJECTS/files/8104105/server.js.txt)
+
+## INSTALL EXPRESS AND SET UP ROUTES TO THE SERVER
+**Step 3: Installing Express and set up routes to the server**
+
+Express is needed to pass book information to and from our MongoDB database
+
+Installing Express Mongoose package =>= _sudo npm install express mongoose_
+
