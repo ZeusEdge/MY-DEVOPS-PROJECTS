@@ -33,3 +33,6 @@ _usermod -a -g "group-name" "username"_ -> This removes the user from all previo
 Delete a user =>= _sudo userdel "username"_
 
 Delete a group =>= _sudo groupdel "groupname"
+
+Adding a user to the sudoers file =>= _usermod -a -G sudo "username"_
+
