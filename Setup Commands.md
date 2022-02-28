@@ -36,3 +36,4 @@ Delete a group =>= _sudo groupdel "groupname"
 
 Adding a user to the sudoers file =>= _usermod -a -G sudo "username"_
 
+Adding executable permissions to a file =>= _chmod +x "filename"_
