@@ -40,4 +40,19 @@ Replace 127.0.0.1 with 0.0.0.0 and save.
 
 ![2022-03-05 15_01_49-ubuntu@ip-172-31-84-163_ ~](https://user-images.githubusercontent.com/97810379/156886645-279c565b-10ca-4cb7-bbb6-c6660605284f.jpg)
 
+Restarted the mysql service ->- sudo systemctl restart mysql
+
+Created the remote user 'username'@'client-ip-address'
+
+mysql>  CREATE USER 'TestUser'@'172.31.87.51' IDENTIFIED BY 'password';
+
+![2022-03-05 16_29_05-MINGW64__c_Users_1_Downloads_DevOps](https://user-images.githubusercontent.com/97810379/156889905-cf593c7c-1b85-4916-afdb-d0b4037caf21.jpg)
+
+Grant all permissions to enable access for the remote user (client)
+
+mysql>  GRANT ALL ON fooDatabase.* TO 'TestUser'@'172.31.87.51';
+
+![2022-03-05 16_29_56-MINGW64__c_Users_1_Downloads_DevOps](https://user-images.githubusercontent.com/97810379/156889916-ed6f63a7-ea2f-4591-abcc-bb654bcc230f.jpg)
+
 ## Connecting to the Server from the Client
+
