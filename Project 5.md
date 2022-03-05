@@ -63,4 +63,6 @@ Connection successful
 
 ![2022-03-05 16_37_33-ubuntu@ip-172-31-87-51_ ~](https://user-images.githubusercontent.com/97810379/156890107-8af94ae0-5928-4b48-9e1f-ef7d6d7b0ecf.jpg)
 
-Test 
+Test to confirm connection was successful => SHOW databases showed desired result.
+
+![2022-03-05 16_40_36-ubuntu@ip-172-31-87-51_ ~](https://user-images.githubusercontent.com/97810379/156890192-38e0ce6a-3769-41be-8043-c2d521a1d2e2.jpg)
