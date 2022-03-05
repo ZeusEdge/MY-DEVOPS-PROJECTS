@@ -27,6 +27,17 @@ sudo apt install mysql-client
 
 ![2022-03-05 14_39_37-ubuntu@ip-172-31-87-51_ ~](https://user-images.githubusercontent.com/97810379/156886211-aedc05c5-588c-40cc-b25e-b7979806cefb.jpg)
 
+## Security Changes and Configuration Settings on the Server
 Opened port 3306 for the client private ip address to enable the client to connect to the server. It was not opened to all for added security.
 
 ![2022-03-05 14_49_10-EC2 Management Console](https://user-images.githubusercontent.com/97810379/156886339-5bac3b23-de14-4c0d-8fdc-21a113c01557.jpg)
+
+Configured MySQL server to allow connections from remote hosts by editing the mysqld.cnf file
+
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+
+Replace 127.0.0.1 with 0.0.0.0 and save.
+
+![2022-03-05 15_01_49-ubuntu@ip-172-31-84-163_ ~](https://user-images.githubusercontent.com/97810379/156886645-279c565b-10ca-4cb7-bbb6-c6660605284f.jpg)
+
+## Connecting to the Server from the Client
