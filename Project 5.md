@@ -55,4 +55,12 @@ mysql>  GRANT ALL ON fooDatabase.* TO 'TestUser'@'172.31.87.51';
 ![2022-03-05 16_29_56-MINGW64__c_Users_1_Downloads_DevOps](https://user-images.githubusercontent.com/97810379/156889916-ed6f63a7-ea2f-4591-abcc-bb654bcc230f.jpg)
 
 ## Connecting to the Server from the Client
+mysql -u username -h mysql_server_ip -p
 
+Enter Password: 
+
+Connection successful
+
+![2022-03-05 16_37_33-ubuntu@ip-172-31-87-51_ ~](https://user-images.githubusercontent.com/97810379/156890107-8af94ae0-5928-4b48-9e1f-ef7d6d7b0ecf.jpg)
+
+Test 
